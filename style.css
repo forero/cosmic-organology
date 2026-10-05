@@ -9,6 +9,16 @@
 
 * { box-sizing: border-box; }
 
+::selection {
+  background: #ff0faf;
+  color: #ffffff;
+}
+
+::-moz-selection {
+  background: #ff0faf;
+  color: #ffffff;
+}
+
 html, body {
   margin: 0;
   padding: 0;
