@@ -367,6 +367,12 @@ main {
   margin-left: auto;
 }
 
+.exhibit-meta--small a {
+  color: inherit;
+  border-bottom: 1px solid var(--grey-dark);
+  text-decoration: none;
+}
+
 /* ---------- Footer ---------- */
 
 .footer {
