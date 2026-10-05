@@ -267,6 +267,66 @@ main {
   background: var(--ink);
 }
 
+/* ---------- Precedents ---------- */
+
+.precedent {
+  padding: 1.8rem 0;
+  border-top: 1px solid var(--grey);
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 0.4rem 1.6rem;
+}
+
+.precedent:first-of-type {
+  border-top: none;
+}
+
+.precedent-year {
+  grid-column: 1;
+  margin: 0.35rem 0 0;
+  font-size: 0.82rem;
+  color: var(--grey-dark);
+}
+
+.precedent-title {
+  grid-column: 2;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.precedent-title a {
+  text-decoration: none;
+  border-bottom: 2px solid var(--ink);
+}
+
+.precedent-by {
+  grid-column: 2;
+  margin: 0.5rem 0 0.7rem;
+  font-size: 0.85rem;
+  font-style: normal;
+  color: var(--grey-dark);
+}
+
+.precedent-desc {
+  grid-column: 2;
+  margin: 0;
+  font-size: 0.9rem;
+  max-width: 62ch;
+}
+
+@media (max-width: 560px) {
+  .precedent {
+    grid-template-columns: 1fr;
+  }
+  .precedent-year,
+  .precedent-title,
+  .precedent-by,
+  .precedent-desc {
+    grid-column: 1;
+  }
+}
+
 /* ---------- Exhibition ---------- */
 
 .block--exhibit {
