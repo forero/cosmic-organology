@@ -183,30 +183,11 @@ main {
   margin-bottom: 2.4rem;
 }
 
-.subsection-title {
-  font-family: "Space Mono", monospace;
-  font-size: 0.82rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+.cosmo-intro {
+  font-size: 0.95rem;
+  max-width: 62ch;
+  margin: 0 0 2.2rem;
   color: var(--grey-dark);
-  margin: 2.4rem 0 0.4rem;
-}
-
-.subsection-title:first-of-type {
-  margin-top: 0;
-}
-
-.cosmo-link {
-  margin-top: 1.8rem;
-  font-size: 0.82rem;
-  color: var(--grey-dark);
-  word-break: break-word;
-}
-
-.cosmo-link a {
-  color: inherit;
-  border-bottom: 1px solid var(--grey-dark);
-  text-decoration: none;
 }
 
 /* ---------- Statement ---------- */
